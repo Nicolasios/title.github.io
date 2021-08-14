@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="react," />
+  <meta name="keywords" content="java," />
 
 
 
@@ -79,20 +79,20 @@
 
 
 
-<meta name="description" content="react 安装准备确保安装nodejs和npm，在Linux中使用如下命令安装： 12$ sudo apt-get install nodejs $ sudo apt-get install npm    安装完成后使用如下命令判断是否安装完成： 12$ node -v$ npm -v  安装create-react-app我们需要使用create-react-app来创建React项目 1$">
+<meta name="description" content="概述String 被声明为 final，因此它不可被继承。 内部使用 char数组存储数据，该数组被声明为 final，这意味着 value 数组初始化之后就不能再引用其它数组。并且 String 内部没有改变 value 数组的方法，因此可以保证 String 不可变。 12345public final class String    implements java.io.Serializab">
 <meta property="og:type" content="article">
-<meta property="og:title" content="react框架使用以及初始化">
-<meta property="og:url" content="http://nicolasios.github.io/2021/08/12/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/react%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8A%E5%88%9D%E5%A7%8B%E5%8C%96/index.html">
+<meta property="og:title" content="java String">
+<meta property="og:url" content="http://nicolasios.github.io/2021/08/14/java%E7%9B%B8%E5%85%B3/java%E5%9F%BA%E7%A1%80/javaString/index.html">
 <meta property="og:site_name" content="昭阳">
-<meta property="og:description" content="react 安装准备确保安装nodejs和npm，在Linux中使用如下命令安装： 12$ sudo apt-get install nodejs $ sudo apt-get install npm    安装完成后使用如下命令判断是否安装完成： 12$ node -v$ npm -v  安装create-react-app我们需要使用create-react-app来创建React项目 1$">
+<meta property="og:description" content="概述String 被声明为 final，因此它不可被继承。 内部使用 char数组存储数据，该数组被声明为 final，这意味着 value 数组初始化之后就不能再引用其它数组。并且 String 内部没有改变 value 数组的方法，因此可以保证 String 不可变。 12345public final class String    implements java.io.Serializab">
 <meta property="og:locale">
-<meta property="og:image" content="http://nicolasios.github.io/2021/08/12/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/react%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8A%E5%88%9D%E5%A7%8B%E5%8C%96/react.jpg">
-<meta property="article:published_time" content="2021-08-12T03:05:13.000Z">
-<meta property="article:modified_time" content="2021-08-13T06:23:26.860Z">
+<meta property="og:image" content="http://nicolasios.github.io/2021/08/14/java%E7%9B%B8%E5%85%B3/java%E5%9F%BA%E7%A1%80/javaString/f76067a5-7d5f-4135-9549-8199c77d8f1c.jpg">
+<meta property="article:published_time" content="2021-08-14T08:04:18.000Z">
+<meta property="article:modified_time" content="2021-08-14T08:22:31.265Z">
 <meta property="article:author" content="Nicolasios">
-<meta property="article:tag" content="react">
+<meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://nicolasios.github.io/2021/08/12/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/react%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8A%E5%88%9D%E5%A7%8B%E5%8C%96/react.jpg">
+<meta name="twitter:image" content="http://nicolasios.github.io/2021/08/14/java%E7%9B%B8%E5%85%B3/java%E5%9F%BA%E7%A1%80/javaString/f76067a5-7d5f-4135-9549-8199c77d8f1c.jpg">
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://nicolasios.github.io/2021/08/12/web开发/react相关/react框架使用以及初始化/"/>
+  <link rel="canonical" href="http://nicolasios.github.io/2021/08/14/java相关/java基础/javaString/"/>
 
 
 
 
 
-  <title>react框架使用以及初始化 | 昭阳</title>
+  <title>java String | 昭阳</title>
   
 
 
@@ -275,7 +275,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://nicolasios.github.io/2021/08/12/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/react%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8A%E5%88%9D%E5%A7%8B%E5%8C%96/">
+    <link itemprop="mainEntityOfPage" href="http://nicolasios.github.io/2021/08/14/java%E7%9B%B8%E5%85%B3/java%E5%9F%BA%E7%A1%80/javaString/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -292,7 +292,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">react框架使用以及初始化</h1>
+          <h1 class="post-title" itemprop="name headline">java String</h1>
         
 
         <div class="post-meta">
@@ -304,8 +304,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-08-12T11:05:13+08:00">
-                2021-08-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-08-14T16:04:18+08:00">
+                2021-08-14
               </time>
             
 
@@ -327,8 +327,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/web%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
-                    <span itemprop="name">web开发</span>
+                  <a href="/categories/java%E7%9B%B8%E5%85%B3/" itemprop="url" rel="index">
+                    <span itemprop="name">java相关</span>
                   </a>
                 </span>
 
@@ -338,8 +338,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/" itemprop="url" rel="index">
-                    <span itemprop="name">react相关</span>
+                  <a href="/categories/java%E7%9B%B8%E5%85%B3/java%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
                   </a>
                 </span>
 
@@ -375,26 +375,46 @@
       
 
       
-        <h2 id="react-安装准备"><a href="#react-安装准备" class="headerlink" title="react 安装准备"></a>react 安装准备</h2><p>确保安装nodejs和npm，在Linux中使用如下命令安装：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install nodejs </span><br><span class="line">$ sudo apt-get install npm</span><br></pre></td></tr></table></figure>
+        <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p><code>String</code> 被声明为 <code>final</code>，因此它不可被继承。</p>
+<p>内部使用<code> char数组</code>存储数据，该数组被声明为 <code>final</code>，这意味着 <code>value </code>数组初始化之后就不能再引用其它数组。并且 <code>String</code> 内部没有改变<code> value</code> 数组的方法，因此可以保证<code> String</code> 不可变。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="class"><span class="keyword">class</span> <span class="title">String</span></span></span><br><span class="line"><span class="class">    <span class="keyword">implements</span> <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span>, <span class="title">Comparable</span>&lt;<span class="title">String</span>&gt;, <span class="title">CharSequence</span> </span>&#123;</span><br><span class="line">    <span class="comment">/** The value is used for character storage. */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">char</span> value[];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
-<p>安装完成后使用如下命令判断是否安装完成：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br><span class="line">$ npm -v</span><br></pre></td></tr></table></figure>
+<h2 id="不变的好处"><a href="#不变的好处" class="headerlink" title="不变的好处"></a>不变的好处</h2><ol>
+<li><p><strong>可以缓存 hash 值</strong>:因为 <code>String</code> 的 <code>hash</code> 值经常被使用，例如<code> String</code> 用做 <code>HashMap</code> 的<code> key</code>。不可变的特性可以使得 <code>hash</code> 值也不可变，因此只需要进行一次计算。</p>
+</li>
+<li><p><strong>String Pool 的需要</strong>:如果一个<code> String</code> 对象已经被创建过了，那么就会从 String Pool 中取得引用。只有 String 是不可变的，才可能使用 <code>String Pool</code>。</p>
+<p><img src="/2021/08/14/java%E7%9B%B8%E5%85%B3/java%E5%9F%BA%E7%A1%80/javaString/f76067a5-7d5f-4135-9549-8199c77d8f1c.jpg" alt="img"></p>
+</li>
+<li><p><strong>安全性</strong> ： <code>String </code>经常作为参数，<code>String</code> 不可变性可以保证参数不可变。例如在作为网络连接参数的情况下如果<code> String</code> 是可变的，那么在网络连接过程中，<code>String</code> 被改变，改变<code>String</code>对象的那一方以为现在连接的是其它主机，而实际情况却不一定是。</p>
+</li>
+<li><p><strong>线程安全</strong></p>
+</li>
+</ol>
+<h2 id="如何支持可变String类型：String-StringBuffer-and-StringBuilder"><a href="#如何支持可变String类型：String-StringBuffer-and-StringBuilder" class="headerlink" title="如何支持可变String类型：String, StringBuffer and StringBuilder"></a>如何支持可变String类型：String, StringBuffer and StringBuilder</h2><ol>
+<li><strong>可变性</strong></li>
+</ol>
+<ul>
+<li><code>String</code> 不可变</li>
+<li><code>StringBuffer</code> 和 <code>StringBuilder</code> 可变</li>
+</ul>
+<ol start="2">
+<li><strong>线程安全</strong></li>
+</ol>
+<ul>
+<li><code>String</code> 不可变，因此是线程安全的</li>
+<li><code>StringBuilder</code> 不是线程安全的</li>
+<li><code>StringBuffer</code> 是线程安全的，内部使用 <code>synchronized</code> 进行同步 </li>
+</ul>
+<h2 id="String-intern"><a href="#String-intern" class="headerlink" title="String.intern()"></a>String.intern()</h2><p>使用 <code>String.intern() </code>可以保证相同内容的字符串变量引用同一的内存对象。</p>
+<p>下面示例中，s1 和 s2 采用 <code>new String()</code> 的方式新建了两个不同对象，而 s3 是通过 s1.intern() 方法取得一个对象引用。<code>intern() </code>首先把 s1 引用的对象放到<code> String Pool(字符串常量池)</code>中，然后返回这个对象引用。因此 s3 和 s1 引用的是同一个字符串常量池的对象。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">String s1 = <span class="keyword">new</span> String(<span class="string">&quot;aaa&quot;</span>);</span><br><span class="line">String s2 = <span class="keyword">new</span> String(<span class="string">&quot;aaa&quot;</span>);</span><br><span class="line">System.out.println(s1 == s2);           <span class="comment">// false</span></span><br><span class="line">String s3 = s1.intern();</span><br><span class="line">System.out.println(s1.intern() == s3);  <span class="comment">// true</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h2 id="安装create-react-app"><a href="#安装create-react-app" class="headerlink" title="安装create-react-app"></a>安装create-react-app</h2><p>我们需要使用create-react-app来创建React项目</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g create-react-app</span><br></pre></td></tr></table></figure>
+<p>如果是采用 “bbb” 这种使用双引号的形式创建字符串实例，会自动地将新建的对象放入 <code>String Pool </code>中。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String s4 = <span class="string">&quot;bbb&quot;</span>;</span><br><span class="line">String s5 = <span class="string">&quot;bbb&quot;</span>;</span><br><span class="line">System.out.println(s4 == s5);  <span class="comment">// true</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h2 id="创建react项目"><a href="#创建react项目" class="headerlink" title="创建react项目"></a>创建react项目</h2><p>进入你想创建项目的路径 ，然后键入命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ create-react-app yourProjectName</span><br></pre></td></tr></table></figure>
-
-<p>yourProjectName就是你项目的名字</p>
-<h2 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> yourProjectName</span><br><span class="line">$ npm start</span><br></pre></td></tr></table></figure>
-
-<p>稍等片刻就会在<a href="http://localhost:3000在浏览器中打开就可以看见react的初始网页,如下图所示">http://localhost:3000在浏览器中打开就可以看见react的初始网页,如下图所示</a></p>
-<img src="/2021/08/12/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/react%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8A%E5%88%9D%E5%A7%8B%E5%8C%96/react.jpg" style="zoom:50%;">
-
+<p>在 Java 7 之前，字符串常量池被放在运行时常量池中，它属于永久代。而在 Java 7，字符串常量池被移到 <code>Native Method </code>中。这是因为永久代的空间有限，在大量使用字符串的场景下会导致 <code>OutOfMemoryError</code> 错误。</p>
 
       
     </div>
@@ -412,7 +432,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/react/" rel="tag"># react</a>
+            <a href="/tags/java/" rel="tag"># java</a>
           
         </div>
       
@@ -425,15 +445,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2021/08/13/java%E7%9B%B8%E5%85%B3/java%E9%9D%A2%E8%AF%95/java%E9%9D%A2%E8%AF%95%E9%A2%98(1)/" rel="next" title="java面试题(1)">
+                <i class="fa fa-chevron-left"></i> java面试题(1)
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2021/08/12/web%E5%BC%80%E5%8F%91/react%E7%9B%B8%E5%85%B3/react%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" rel="prev" title="react基本语法">
-                react基本语法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -574,7 +594,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#react-%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87"><span class="nav-number">1.</span> <span class="nav-text">react 安装准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85create-react-app"><span class="nav-number">2.</span> <span class="nav-text">安装create-react-app</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAreact%E9%A1%B9%E7%9B%AE"><span class="nav-number">3.</span> <span class="nav-text">创建react项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE"><span class="nav-number">4.</span> <span class="nav-text">启动项目</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8D%E5%8F%98%E7%9A%84%E5%A5%BD%E5%A4%84"><span class="nav-number">2.</span> <span class="nav-text">不变的好处</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%94%AF%E6%8C%81%E5%8F%AF%E5%8F%98String%E7%B1%BB%E5%9E%8B%EF%BC%9AString-StringBuffer-and-StringBuilder"><span class="nav-number">3.</span> <span class="nav-text">如何支持可变String类型：String, StringBuffer and StringBuilder</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#String-intern"><span class="nav-number">4.</span> <span class="nav-text">String.intern()</span></a></li></ol></div>
             
 
           </div>
